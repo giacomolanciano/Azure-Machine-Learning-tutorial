@@ -1,6 +1,6 @@
 # Azure Machine Learning tutorial
 Material for [Azure Machine Learning](https://azure.microsoft.com/it-it/services/machine-learning/) tutorial lecture, held within Data Mining course of MoS in Engineering in Computer Science at Università degli Studi di Roma "La Sapienza" (A.Y. 2016/2017).  
-<p align="center"><img src="https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315" width=50%/></p>
+<br><p align="center"><img src="https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315" width=50%/></p>
 
 ## Lecturers
 
