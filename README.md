@@ -16,3 +16,16 @@ Material for [Azure Machine Learning](https://azure.microsoft.com/it-it/services
 [leo]: https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315
 [fab]: https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315
 [zhu]: https://goo.gl/AE1BI8
+
+## Available Material
+
+In this repo you can find:
+- lecture slides (also available on [SlideShare]()).
+- homework assignments.
+- sample scripts.
+
+## Handing in
+
+Read carefully the instructions contained in [AML_homework.pdf](https://github.com/giacomolanciano/Azure-Machine-Learning-tutorial/blob/master/homework/AML_homework.pdf). Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it due **December, 27 2016**.
+
+---
