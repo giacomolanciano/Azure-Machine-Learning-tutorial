@@ -26,6 +26,8 @@ In this repo you can find:
 
 ## Handing in
 
-Read carefully the instructions contained in [AML_homework.pdf](https://github.com/giacomolanciano/Azure-Machine-Learning-tutorial/blob/master/homework/AML_homework.pdf). Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it due **December, 27 2016**.
+Read carefully the instructions contained in [AML_homework.pdf](https://github.com/giacomolanciano/Azure-Machine-Learning-tutorial/blob/master/homework/AML_homework.pdf). Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it due **December, 27 2016 (23:59)**.
 
 ---
+
+Our team thanks you for your participation to this lecture and whishes you all a **Merry Christmas**, full of wonderful experiments!
