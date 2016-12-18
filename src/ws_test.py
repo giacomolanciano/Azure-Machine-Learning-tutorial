@@ -4,24 +4,27 @@ import urllib2
 import json
 
 
-ColumnNames = ["symboling", "normalized-losses", "make", "fuel-type", "aspiration", "num-of-doors", "body-style", "drive-wheels", "engine-location", "wheel-base", "length", "width", "height", "curb-weight", "engine-type", "num-of-cylinders", "engine-size", "fuel-system", "bore", "stroke", "compression-ratio", "horsepower", "peak-rpm", "city-mpg", "highway-mpg", "price"]
+ColumnNames = ["symboling", "normalized-losses", "make", "fuel-type", "aspiration", "num-of-doors", "body-style", "drive-wheels", 
+               "engine-location", "wheel-base", "length", "width", "height", "curb-weight", "engine-type", "num-of-cylinders", 
+               "engine-size", "fuel-system", "bore", "stroke", "compression-ratio", "horsepower", "peak-rpm", "city-mpg", 
+               "highway-mpg", "price"]
 
-def set_input():
-    pass
 
 def call_ws():
     # feature that are considered in the training module
-    my_input1 = ["3", "", "audi", "diesel", "std", "two", "convertible", "rwd", "front", "88.6", "168.8", "64.1", "48.8", "2548", "dohc", "four", "130", "mpfi", "3.47", "2.68", "9", "511", "5000", "21", "27", "0"]
-    my_input2 = ["3", "", "audi", "diesel", "std", "two", "convertible", "rwd", "front", "88.6", "168.8", "64.1", "48.8", "2548", "dohc", "four", "130", "mpfi", "3.47", "2.68", "9", "111", "5000", "21", "27", "0"]
+    my_input1 = ["3", "", "audi", "diesel", "std", "two", "convertible", "rwd", "front", "88.6", "168.8", "64.1", "48.8", "2548",
+                 "dohc", "four", "130", "mpfi", "3.47", "2.68", "9", "511", "5000", "21", "27", "0"]
+    my_input2 = ["3", "", "audi", "diesel", "std", "two", "convertible", "rwd", "front", "88.6", "168.8", "64.1", "48.8", "2548",
+                 "dohc", "four", "130", "mpfi", "3.47", "2.68", "9", "111", "5000", "21", "27", "0"]
     my_input_list = []
     my_input_list.append(my_input1)
     my_input_list.append(my_input2)
     my_data = {"Inputs":{
-        "input1":{
-            "ColumnNames": ColumnNames,
-            "Values":my_input_list
-        },
-    }, "GlobalParameters": {}
+            "input1":{
+                "ColumnNames": ColumnNames,
+                "Values":my_input_list
+            },
+        }, "GlobalParameters": {}
     }
 
     body = str.encode(json.dumps(my_data))
@@ -30,6 +33,7 @@ def call_ws():
     api_key = 'vmXLRKhaeo4fxYtekazgEZ16VAKqGxP9LPp+Dkm25nKY3EQMmGd9k0NWjS9mlhuKWnzz4f02YxOGznz3C7LcLw=='  # Replace this with the API key for the web service
     headers = {'Content-Type': 'application/json', 'Authorization': ('Bearer ' + api_key)}
     req = urllib2.Request(url, body, headers)
+    
     try:
         response = urllib2.urlopen(req)
 
@@ -47,7 +51,6 @@ def call_ws():
         column_types = value_dic["ColumnTypes"] # Column type returned
         values = value_dic["Values"]            # List of the same length of my_input_list
 
-
         for v in values:
             print "Output found"
             for i in range(len(column_names)):
@@ -58,7 +61,6 @@ def call_ws():
                 else:
                     print "\t",column_names[i]+"("+column_types[i]+"):", v[i]
 
-
     except urllib2.HTTPError, error:
         print("The request failed with status code: " + str(error.code))
 
@@ -68,4 +70,5 @@ def call_ws():
         print(json.loads(error.read()))
 
 
-call_ws()
+if __name__ == "__main__":
+    call_ws()

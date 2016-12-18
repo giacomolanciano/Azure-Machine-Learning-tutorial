@@ -1,6 +1,8 @@
 # Azure Machine Learning tutorial
 
-Material for [Azure Machine Learning](https://azure.microsoft.com/it-it/services/machine-learning/) tutorial lecture, held within [Data Mining](http://aris.me/index.php/data-mining-2016) course of MoS in Engineering in Computer Science at Università degli Studi di Roma "La Sapienza" (A.Y. 2016/2017).  
+Material for [Azure Machine Learning](https://azure.microsoft.com/it-it/services/machine-learning/) tutorial lecture, held within 
+[Data Mining](http://aris.me/index.php/data-mining-2016) course of MoS in Engineering in Computer Science at Università degli Studi 
+di Roma "La Sapienza" (A.Y. 2016/2017).  
 <br><p align="center"><img src="https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315" width=50%/></p>
 
 ## Lecturers
@@ -26,7 +28,8 @@ In this repo you can find:
 
 ## Handing in
 
-Read carefully the instructions contained in [AML_homework.pdf](https://github.com/giacomolanciano/Azure-Machine-Learning-tutorial/blob/master/homework/AML_homework.pdf). Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it due **December, 27 2016 (23:59)**.
+Read carefully the instructions contained in [AML_homework.pdf](https://github.com/giacomolanciano/Azure-Machine-Learning-tutorial/blob/master/homework/AML_homework.pdf). 
+Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it due **December, 27 2016 (23:59)**.
 
 ---
 
