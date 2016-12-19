@@ -33,4 +33,4 @@ Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it
 
 ---
 
-Our team thanks you for your participation to this lecture and whishes you all a **Merry Christmas**, full of wonderful experiments!
+Our team thanks you for your participation to this lecture and whishes you all a **Merry Christmas**, full of wonderful experiments! :bar_chart: :santa: :christmas_tree:
