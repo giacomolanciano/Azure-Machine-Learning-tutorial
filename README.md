@@ -16,7 +16,7 @@ di Roma "La Sapienza" (A.Y. 2016/2017).
 |Simone Caldaro    |caldaro.1324152@studenti.uniroma1.it |  
 |Zhu Na            |nana.zhu@hotmail.com                 |  
 
-## Available Material
+## Available material
 
 In this repo you can find:
 - lecture slides (also available on [SlideShare](http://www.slideshare.net/GiacomoLanciano/azure-machine-learning-tutorial)).
