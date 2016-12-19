@@ -7,17 +7,14 @@ di Roma "La Sapienza" (A.Y. 2016/2017).
 
 ## Lecturers
 
-|Simone Caldaro|Francisco Ferreres|Giacomo Lanciano|Leonardo Martini|Fabio Rosato|Zhu Na   |  
-|--------------|------------------|----------------|----------------|------------|:-------:|  
-|![n.a.][sim]  |![n.a.][fra]      |![n.a.][gia]    |![n.a.][leo]    |![n.a.][fab]|<img src=https://goo.gl/AE1BI8 width=50%>|
-
-
-[sim]: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/085/27d/1d89907.jpg
-[fra]: https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315
-[gia]: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcsAAAAJDgzY2U0M2YwLThlNjgtNGYzNi05OWFmLTYyOGM0YTUyMzRkOQ.jpg
-[leo]: https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315
-[fab]: https://azure.microsoft.com/svghandler/machine-learning/?width=600&height=315
-[zhu]: https://goo.gl/AE1BI8
+|                  |                                     |
+|------------------|-------------------------------------|  
+|Fabio Rosato      |rosato.1565173@studenti.uniroma1.it  |  
+|Giacomo Lanciano  |lanciano.1487019@studenti.uniroma1.it|  
+|Francisco Ferreres|matakukos@gmail.com                  |  
+|Leonardo Martini  |martini.1722989@studenti.uniroma1.it |  
+|Simone Caldaro    |caldaro.1324152@studenti.uniroma1.it |  
+|Zhu Na            |nana.zhu@hotmail.com                 |  
 
 ## Available Material
 
