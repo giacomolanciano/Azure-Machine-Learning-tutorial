@@ -22,7 +22,7 @@ di Roma "La Sapienza" (A.Y. 2016/2017).
 ## Available Material
 
 In this repo you can find:
-- lecture slides (also available on [SlideShare]()).
+- lecture slides (also available on [SlideShare](http://www.slideshare.net/GiacomoLanciano/azure-machine-learning-tutorial)).
 - homework assignments.
 - sample scripts.
 
