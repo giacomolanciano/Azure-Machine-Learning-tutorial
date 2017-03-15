@@ -31,3 +31,7 @@ Remember you have to send your solutions at martini.1722989@studenti.uniroma1.it
 ---
 
 Our team thanks you for your participation to this lecture and whishes you all a **Merry Christmas**, full of wonderful experiments! :bar_chart: :santa: :christmas_tree:
+
+---
+
+**Update (15/03/2017):** A [video tutorial](https://youtu.be/_zvPX6Kk7z8) that resumes our lecture is now available on YouTube.
